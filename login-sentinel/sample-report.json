@@ -1,0 +1,30 @@
+{
+  "event_count": 11,
+  "alert_count": 3,
+  "alerts": [
+    {
+      "timestamp": "2026-01-15T09:05:00+00:00",
+      "rule": "repeated_failures",
+      "severity": "medium",
+      "source_ip": "198.51.100.23",
+      "username": "admin",
+      "failure_count": 5
+    },
+    {
+      "timestamp": "2026-01-15T09:06:00+00:00",
+      "rule": "success_after_failures",
+      "severity": "high",
+      "source_ip": "198.51.100.23",
+      "username": "admin",
+      "failure_count": 5
+    },
+    {
+      "timestamp": "2026-01-15T09:10:00+00:00",
+      "rule": "password_spray",
+      "severity": "medium",
+      "source_ip": "203.0.113.8",
+      "username": "sam",
+      "failure_count": 4
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Lab policy: require multifactor authentication for administrators.

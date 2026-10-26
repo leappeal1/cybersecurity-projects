@@ -1,0 +1,13 @@
+{
+  "added": [
+    "unexpected.txt"
+  ],
+  "deleted": [
+    "access-policy.txt"
+  ],
+  "modified": [
+    "settings.ini"
+  ],
+  "unchanged": 0,
+  "skipped": []
+}
